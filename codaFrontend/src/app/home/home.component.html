@@ -84,8 +84,8 @@
                     </div>
 
                     <div class="card  card bg-light text-dark my-3" *ngIf="dish.id % 2 != 0 "
-                        style="height: 500px; ">
-                        <div class="card-img-caption">
+                        style="height: 450px; ">
+                        <div class="card-img-caption " >
                             <p class="card-text">
                                 <span class="badge badge-dark p-2" style=" font-size: 15px;
                                 font-variant: small-caps;
@@ -96,7 +96,7 @@
                             <img class="card-img-top img-fluid" style="height: 200px;" src="{{ dish.image }}"
                                 alt="Card image cap">
                         </div>
-                        <div class="card-body">
+                        <div class="card-body" >
                             <div class="row">
                                 <div class="col-9">
                                     <h5 class="card-title mb-1" [ngClass]="{ sss: myBool }">
